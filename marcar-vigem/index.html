@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+        <h1>Enviar Dados do formulario</h1>
+        <form class="box" id="formulario">
+            <input type="text" id="name" placeholder="Digite seu nome" required>
+            <input type="date" id="data" required>
+            <select id="viage" required>
+           <option value="">Selecione Destino</option>
+           <option value="Rio de Janeiro">Rio de Janeiro</option>
+           <option value="Fortaleza" >Fortaleza</option>
+           <option value="Salvador" >Salvador</option>
+           <option value="Recife" >Recife</option>
+            </select>
+           
+            <br>
+           
+            <button id="botao" type="submit"> Verificar Reserva </button>
+        </form>
+       
+        <div id="mensagem"></div>
+        <div id="Cookies-msg">
+        
+        
+            <p>Usamos cookies para melhorar sua experiência no nosso site. Ao continuar navegando, Você concorda com nossa Política de Cookies.</p>
+    <div id="aceitoCookies"> 
+        <button onclick="aceito()">ACEITO</button>
+    </div>
+    </div>
+   
+</body>
+<script src="javas.js"></script>
+</html>
